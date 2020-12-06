@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose")
 
 // vamos estabelecer a conexao com o banco de dados mongodb
-const urldb = "mongodb+srv://weldorn:Alunos@123@clustercliente.2rosu.mongodb.net/banco?retryWrites=true&w=majority"
+//Cluster revogado
 mongoose.connect(urldb, {useNewUrlParser:true,useUnifiedTopology:true})
 
 // Criacao do esquema de dados da tabela. Campos da tabela
